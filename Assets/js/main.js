@@ -496,15 +496,6 @@ function toast({ title = "", message = "", type = "info", duration = 1000 }) {
   }
 }
 
-function showSuccessToast() {
-  toast({
-    title: "Success",
-    message: "chúc mừng bạn đã nâng cấp VIP thành công 😊",
-    type: "success", // kiểu quết định "class"
-    duration: 4000, // khoảng thời gian ẩn duration: 1000  mi li s = 1s
-  });
-}
-
 function showErrorToast() {
   toast({
     title: "Error",
